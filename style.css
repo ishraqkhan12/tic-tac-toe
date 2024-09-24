@@ -100,3 +100,21 @@ h1{
     background-color: #dfdb11;
     display: none;
 }
+#new-btn1{
+    width: 18vmin;
+    height: 7vmin;
+    border-radius: 0.5rem;
+    background-color: #4fecd4;
+    font-size: 1rem;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#new-btn1:hover{
+    background-color: #49c6b3;
+    border: none;
+}
+.btn{
+    display: flex;
+    gap: 2rem;
+}
