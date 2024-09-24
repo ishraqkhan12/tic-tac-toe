@@ -1,1 +1,1 @@
-http://tic-tac-toe-ishraq.netlify.app
+https://tic-tac-toe-ishraq.netlify.app
