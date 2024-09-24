@@ -3,7 +3,7 @@ let restartBtn = document.querySelector('#reset')
 let msg = document.getElementById("msg")
 let container = document.querySelector(".container1");
 let newGame = document.getElementById("new-btn")
-let prevBtn = document.getElementById("prev-btn")
+let newGame1 = document.getElementById("new-btn1")
 
 
 let turnO = true;
@@ -107,8 +107,14 @@ function enableBoxes(){
         boxes[i].innerText = ""
     }
 }
+function prevGame(){
+    container.classList.add("hide")
+  
+    
+}
 
 
 restartBtn.onclick = restart;
 newGame.onclick = restart;
+newGame1.onclick = prevGame;
 
